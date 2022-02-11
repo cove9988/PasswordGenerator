@@ -3,6 +3,13 @@
 [![Build Status](https://travis-ci.org/cove9988/PasswordGenerator.svg?branch=master)](https://github.com/cove9988/PasswordGenerator)
 [![Updates](https://pyup.io/repos/github/cove9988/PasswordGenerator/shield.svg)](https://github.com/cove9988/PasswordGenerator)
 
+Working on a project recently, which requires generating random secured passwords for users, sounds simple? Yeah, me too, I quickly rolled out my first version, a random password generator, then found out not happy with how to control password length, how many uppercases, digitals, symbols apply in a password. Worked out the second version, guess what? Not happy again, with some char sets like, o 0 O, I 1 l, which are a bit visually aggressive in password. Also some applications accept limited symbols.
+
+So I did a bit of research on this topic, a heap of libraries available there, but either too complex to configure or too simple like my old one.
+
+Coding a library for the community? Let's do it....then, I realized that I have to refactor my code, because you don't want to present you sh*t code to the public. In a library, every line of code should be accountable and elegant. Not mention that you need to have a good comprehensive document with examples. And version control, change log , setup, deployment are all must. A lot of work ahead.
+
+
 ### Password Generator
 
 based on [Perfect Paper Passwords](https://www.grc.com/ppp.html)
